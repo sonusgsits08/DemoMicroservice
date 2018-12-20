@@ -8,6 +8,6 @@ public class ClientController {
 
 	@GetMapping(value = "/greeting")
 	public String sayHi() {
-		return "Hi Siyaram";
+		return "Hi Siyaram - Client1";
 	}
 }
